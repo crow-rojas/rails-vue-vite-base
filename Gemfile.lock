@@ -122,6 +122,7 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
+    foreman (0.88.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.5)
@@ -301,6 +302,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  foreman
   jbuilder
   name_of_person
   pg (~> 1.1)

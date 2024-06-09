@@ -1,0 +1,10 @@
+#!/bin/bash
+# Check if Foreman is installed
+if ! command -v foreman &> /dev/null
+then
+    echo "Foreman could not be found. Please install it by running 'gem install foreman'."
+    exit 1
+fi
+
+# Start the application using Foreman and the Procfile.dev
+foreman start -f Procfile.dev
