@@ -1,24 +1,23 @@
-# README
+# Rails + Vue + Vite + TailwindCSS Template App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+Run the following commands to get started:
 
-* Ruby version
+```bash
+bundle install
+rails db:create
+rails db:migrate
+```
 
-* System dependencies
+To start the app, run:
 
-* Configuration
+```bash
+bin/dev
+```
 
-* Database creation
+This will start the Rails server and the Vite server concurrently.
 
-* Database initialization
+## Acknowledgement
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This template app was created thanks to IsraelDCastro and his [rails-vite-tailwind-stimulus-starter](https://github.com/IsraelDCastro/rails-vite-tailwindcss-template) template project.
